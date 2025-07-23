@@ -37,7 +37,7 @@ export default function Home() {
           </motion.h2>
 
           <motion.h1
-            className="text-4xl md:text-6xl font-bold"
+            className="text-3xl md:text-6xl font-bold"
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ delay: 0.4, duration: 0.8 }}
