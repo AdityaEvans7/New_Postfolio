@@ -92,7 +92,7 @@ export default function Portfolio() {
 
   const filteredProjects =
     activeCategory === "All"
-      ? allProjects.slice(0, 4) // show only 6 projects in All
+      ? allProjects.slice(0, 6) // show only 6 projects in All
       : allProjects.filter((project) => project.category === activeCategory);
 
   return (
