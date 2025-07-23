@@ -7,11 +7,17 @@ export default function Home() {
   const isInView = useInView(ref, { once: false, amount: 0.3 }) // Re-trigger when 30% in view
 
   return (
-    <section
-      id="home"
-      className="relative h-screen bg-center bg-cover bg-no-repeat"
-      style={{ backgroundImage: `url(${doubleHero})` }}
-    >
+   <section
+  id="home"
+  className="relative h-screen bg-no-repeat bg-cover"
+  style={{
+    backgroundImage: `url(${doubleHero})`,
+    backgroundPosition: '47% center' // Shift image to right
+  }}
+>
+
+
+
       <motion.div
         ref={ref}
         className="absolute inset-0 bg-opacity-60 flex flex-col items-center justify-center text-white px-4"

@@ -10,6 +10,7 @@ import mentalImg from "../assets/projects/walletui.png";
 import realEstateImg from "../assets/projects/realeweb.jpg";
 import newzapp from "../assets/projects/newzapp.jpg";
 import sneakerImg from "../assets/projects/romansn.png";
+import newsweb from "../assets/projects/newsweb.png";
 
 // ✅ Project data
 const allProjects = [
@@ -72,7 +73,7 @@ const allProjects = [
       "A platform to explore the latest news articles and news paper with user-friendly features.",
     link: "https://your-news-mania-website-link.com",
     category: "Web Development",
-    image: todoImg,
+    image: newsweb,
   },
   {
     title: "My Wallet App UI",
@@ -91,7 +92,7 @@ export default function Portfolio() {
 
   const filteredProjects =
     activeCategory === "All"
-      ? allProjects.slice(0, 6) // show only 6 projects in All
+      ? allProjects.slice(0, 4) // show only 6 projects in All
       : allProjects.filter((project) => project.category === activeCategory);
 
   return (
