@@ -23,7 +23,7 @@ export default function YouTubeChannel() {
         🎬 Filmi <span className="text-lime-400">Baten</span>
       </h2>
       <p className="text-gray-300 max-w-2xl mb-6">
-        Your daily dose of movie magic! I run a growing YouTube channel with <strong>3.3K+ subscribers</strong> where I share
+        Your daily dose of movie magic! I run a growing YouTube channel with <strong>7K+ subscribers</strong> where I share
         <span className="text-lime-400 font-medium"> movie facts, superhero theories, film breakdowns, and hidden secrets </span>
         that fans love to watch and discuss. If you're into Marvel, DC, Netflix thrillers, or deep movie lore—this channel is for you!
       </p>
